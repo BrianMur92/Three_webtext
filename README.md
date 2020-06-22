@@ -29,7 +29,17 @@ Examples of both:
 ``three_webtext.main(sent_to='0871234567')``
 ``three_webtext.main(sent_to='0871234567', 'This is my message!')``
 
+**NOTE**: The latest version has a GUI where the user can enter a number and message to send.
 
+![message_GUI_example](./images/message_GUI_example.png)
+
+This GUI can be called by running the message_GUI script in whatever editor is being used.
+It can also be called from the command prompt or terminal as it takes no special inputs.
+Example in windows command terminal to load the GUI
+
+``py message_GUI.py``
+
+The GUI does not need to be used if the user doesn't want to, as the previously described examples still work.
 
 ## Requirements
 * Python 3.X
